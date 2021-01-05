@@ -8976,11 +8976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rekh8\\OneDrive\\Desktop\\GitLabEx\\Final_Project\\SpiceMVCCore\\SpiceMVCCore\\SpiceMVCCore.csproj",
+      "projectUniqueName": "C:\\Users\\rekh8\\OneDrive\\Documents\\GitHub\\arupa\\SpiceMVCCore\\SpiceMVCCore\\SpiceMVCCore.csproj",
       "projectName": "SpiceMVCCore",
-      "projectPath": "C:\\Users\\rekh8\\OneDrive\\Desktop\\GitLabEx\\Final_Project\\SpiceMVCCore\\SpiceMVCCore\\SpiceMVCCore.csproj",
+      "projectPath": "C:\\Users\\rekh8\\OneDrive\\Documents\\GitHub\\arupa\\SpiceMVCCore\\SpiceMVCCore\\SpiceMVCCore.csproj",
       "packagesPath": "C:\\Users\\rekh8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rekh8\\OneDrive\\Desktop\\GitLabEx\\Final_Project\\SpiceMVCCore\\SpiceMVCCore\\obj\\",
+      "outputPath": "C:\\Users\\rekh8\\OneDrive\\Documents\\GitHub\\arupa\\SpiceMVCCore\\SpiceMVCCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rekh8\\AppData\\Roaming\\NuGet\\NuGet.Config",
