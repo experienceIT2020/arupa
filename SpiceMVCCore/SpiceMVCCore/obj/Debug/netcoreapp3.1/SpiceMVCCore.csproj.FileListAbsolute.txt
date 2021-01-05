@@ -990,3 +990,4 @@ C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Deb
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Edit.cshtml.g.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Delete.cshtml.g.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Details.cshtml.g.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThumbnailAreaPArtial.cshtml.g.cs
