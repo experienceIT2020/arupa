@@ -38,7 +38,7 @@ namespace SpiceMVCCore.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 //if valid
-                _db.Category.Add(category);
+                _db.Category.Add(category); 
                 await _db.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));

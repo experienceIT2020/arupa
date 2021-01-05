@@ -985,3 +985,8 @@ C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Deb
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\MenuItem\Delete.cshtml.g.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\MenuItem\Details.cshtml.g.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\MenuItem\Edit.cshtml.g.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Index.cshtml.g.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Create.cshtml.g.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Edit.cshtml.g.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Delete.cshtml.g.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Details.cshtml.g.cs
