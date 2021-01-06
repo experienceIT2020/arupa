@@ -9,10 +9,12 @@ using Microsoft.EntityFrameworkCore;
 using SpiceMVCCore.Data;
 using SpiceMVCCore.Models;
 using SpiceMVCCore.Models.ViewModels;
+using SpiceMVCCore.Utility;
 
 namespace SpiceMVCCore.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.ManagerUser)]
     public class SubCategoryController : Controller
     {
         private readonly ApplicationDbContext_db _db;

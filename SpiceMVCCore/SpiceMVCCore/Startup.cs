@@ -6,12 +6,19 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SpiceMVCCore.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SpiceMVCCore.Utility;
+using Stripe;
+using SpiceMVCCore.Service;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Hosting;
+using SpiceMVCCore.Services;
 
 namespace SpiceMVCCore
 {
@@ -30,8 +37,17 @@ namespace SpiceMVCCore
             services.AddDbContext<ApplicationDbContext_db>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<ApplicationDbContext_db>();
+
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+             .AddDefaultTokenProviders()
+             .AddEntityFrameworkStores<ApplicationDbContext_db>();
+
+            services.AddScoped<IDbInitializer, DbInitializer>();
+            services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
+            services.AddSingleton<IEmailSender, EmailSender>();
+            services.Configure<EmailOptions>(Configuration);
+
             services.AddControllersWithViews();
             services.AddRazorPages().AddRazorRuntimeCompilation();
         }

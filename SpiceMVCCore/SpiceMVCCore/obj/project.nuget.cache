@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b8hVMuY2pGG+1belZ62M9PU0cbFevWI/2/y1rbDS6U+VIQ3JHQUSV4dvDQn0dDickI5pRSkvwiVlkZ4pVQlh7g==",
+  "dgSpecHash": "6k5nYs9K/lrjcorXVVVcifXyi4zsXwh4GCQaMGqKcoMOVVyQyQT2NCet2cmGHaVLxHJDilPhcsFPyOMn3iMerw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rekh8\\OneDrive\\Documents\\GitHub\\arupa\\SpiceMVCCore\\SpiceMVCCore\\SpiceMVCCore.csproj",
   "expectedPackageFiles": [
@@ -89,6 +89,9 @@
     "C:\\Users\\rekh8\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\rekh8\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\rekh8\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\rekh8\\.nuget\\packages\\sendgrid\\9.22.0\\sendgrid.9.22.0.nupkg.sha512",
+    "C:\\Users\\rekh8\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512",
+    "C:\\Users\\rekh8\\.nuget\\packages\\stripe.net\\39.31.0\\stripe.net.39.31.0.nupkg.sha512",
     "C:\\Users\\rekh8\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\rekh8\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\rekh8\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
