@@ -995,3 +995,4 @@ C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Deb
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\staticwebassets\SpiceMVCCore.StaticWebAssets.xml
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.genruntimeconfig.cache
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.csprojAssemblyReference.cache
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
