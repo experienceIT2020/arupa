@@ -75,6 +75,7 @@ namespace SpiceMVCCore
             }
 
             app.UseRouting();
+            StripeConfiguration.ApiKey = Configuration.GetSection("Stripe")["SecretKey"];
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
