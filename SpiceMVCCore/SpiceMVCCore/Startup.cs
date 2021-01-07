@@ -18,7 +18,7 @@ using Stripe;
 using SpiceMVCCore.Service;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Hosting;
-using SpiceMVCCore.Services;
+using SpiceMVCCore.Service;
 
 namespace SpiceMVCCore
 {
@@ -44,6 +44,7 @@ namespace SpiceMVCCore
              .AddEntityFrameworkStores<ApplicationDbContext_db>();
 
             services.AddScoped<IDbInitializer, DbInitializer>();
+
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
             services.AddSingleton<IEmailSender, EmailSender>();
             services.Configure<EmailOptions>(Configuration);
@@ -51,7 +52,21 @@ namespace SpiceMVCCore
             services.AddControllersWithViews();
             services.AddRazorPages().AddRazorRuntimeCompilation();
 
-            services.AddSession(options =>
+            services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = "232348388554082";
+                facebookOptions.AppSecret = "6b9bd67d3e60f1d42a90876a30a5616a";
+            });
+
+            services.AddAuthentication().AddGoogle(googleOptions =>
+            {
+                googleOptions.ClientId = "943287545908-23cg1r49vf777q6lj9ndvl72cfro6vac.apps.googleusercontent.com";
+                googleOptions.ClientSecret = "9ppq7O-KTSbX4GNl8hWJscnG";
+            });
+
+      
+
+        services.AddSession(options =>
             {
                 options.Cookie.IsEssential = true;
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -60,7 +75,7 @@ namespace SpiceMVCCore
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -76,6 +91,7 @@ namespace SpiceMVCCore
 
             app.UseRouting();
             StripeConfiguration.ApiKey = Configuration.GetSection("Stripe")["SecretKey"];
+            dbInitializer.Initialize();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();

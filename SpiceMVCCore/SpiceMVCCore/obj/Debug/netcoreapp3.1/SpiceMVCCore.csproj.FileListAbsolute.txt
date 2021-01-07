@@ -491,9 +491,6 @@ C:\Users\rekh8\OneDrive\Desktop\GitLabEx\Final_Project\SpiceMVCCore\SpiceMVCCore
 C:\Users\rekh8\OneDrive\Desktop\GitLabEx\Final_Project\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SubCategory\Delete.cshtml.g.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.AssemblyInfoInputs.cache
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.AssemblyInfo.cs
-C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.csproj.CoreCompileInputs.cache
-C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.RazorAssemblyInfo.cache
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.RazorAssemblyInfo.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.TagHelpers.input.cache
@@ -1004,3 +1001,9 @@ C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Deb
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_OrderStatus.cshtml.g.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\ManageOrder.cshtml.g.cs
 C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Order\OrderPickup.cshtml.g.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.csproj.CoreCompileInputs.cache
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\SpiceMVCCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs

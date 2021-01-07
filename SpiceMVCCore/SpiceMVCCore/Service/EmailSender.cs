@@ -1,14 +1,13 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.Options;
+using SendGrid;
+using SendGrid.Helpers.Mail;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity.UI.Services;
-using Microsoft.Extensions.Options;
-using SpiceMVCCore.Service;
-using SendGrid;
-using SendGrid.Helpers.Mail;
 
-namespace SpiceMVCCore.Services
+namespace SpiceMVCCore.Service
 {
     public class EmailSender : IEmailSender
     {
