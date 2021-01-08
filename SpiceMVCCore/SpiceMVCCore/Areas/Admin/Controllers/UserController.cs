@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using SpiceMVCCore.Data;
 using SpiceMVCCore.Utility;
 
-namespace Spice.Areas.Admin.Controllers
+namespace SpiceMVCCore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = SD.ManagerUser)]

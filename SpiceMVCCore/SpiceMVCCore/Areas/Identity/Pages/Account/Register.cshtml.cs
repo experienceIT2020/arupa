@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 using SpiceMVCCore.Models;
 using SpiceMVCCore.Utility;
 
-namespace Spice.Areas.Identity.Pages.Account
+namespace SpiceMVCCore.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class RegisterModel : PageModel

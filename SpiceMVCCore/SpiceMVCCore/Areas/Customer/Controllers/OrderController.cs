@@ -13,7 +13,7 @@ using SpiceMVCCore.Models;
 using SpiceMVCCore.Models.ViewModels;
 using SpiceMVCCore.Utility;
 
-namespace Spice.Areas.Customer.Controllers
+namespace SpiceMVCCore.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class OrderController : Controller

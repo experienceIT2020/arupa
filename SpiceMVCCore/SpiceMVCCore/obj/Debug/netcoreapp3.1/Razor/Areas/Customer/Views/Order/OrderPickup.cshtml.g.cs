@@ -37,7 +37,11 @@ using SpiceMVCCore.Utility;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e9d45732d928b81f5e41db91cdc9ba4fc392c081", @"/Areas/Customer/Views/_ViewImports.cshtml")]
     public class Areas_Customer_Views_Order_OrderPickup : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<SpiceMVCCore.Models.ViewModels.OrderListViewModel>
     {
-        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "get", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("page-class", "btn border", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("page-class-normal", "btn btn-light", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_2 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("page-class-selected", "btn btn-info active", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_3 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn-group float-right"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_4 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "get", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
         #pragma warning disable 0649
         private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
@@ -60,6 +64,7 @@ using SpiceMVCCore.Utility;
         }
         private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
         private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
+        private global::SpiceMVCCore.TagHelpers.PageLinkTagHelper __SpiceMVCCore_TagHelpers_PageLinkTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -73,7 +78,7 @@ using SpiceMVCCore.Utility;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18568c79df14ca12d644b7f4ae54d0191ddd23874279", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18568c79df14ca12d644b7f4ae54d0191ddd23875695", async() => {
                 WriteLiteral(@"
 
     <br /><br />
@@ -246,17 +251,44 @@ using SpiceMVCCore.Utility;
 #line default
 #line hidden
 #nullable disable
-                WriteLiteral("                </table>\r\n                <div");
-                BeginWriteAttribute("page-model", " page-model=\"", 4238, "\"", 4268, 1);
+                WriteLiteral("                </table>\r\n                ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18568c79df14ca12d644b7f4ae54d0191ddd238714957", async() => {
+                    WriteLiteral("\r\n                ");
+                }
+                );
+                __SpiceMVCCore_TagHelpers_PageLinkTagHelper = CreateTagHelper<global::SpiceMVCCore.TagHelpers.PageLinkTagHelper>();
+                __tagHelperExecutionContext.Add(__SpiceMVCCore_TagHelpers_PageLinkTagHelper);
 #nullable restore
 #line 96 "C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\Areas\Customer\Views\Order\OrderPickup.cshtml"
-WriteAttributeValue("", 4251, Model.PagingInfo, 4251, 17, false);
+__SpiceMVCCore_TagHelpers_PageLinkTagHelper.PageModel = Model.PagingInfo;
 
 #line default
 #line hidden
 #nullable disable
-                EndWriteAttribute();
-                WriteLiteral(" page-classes-enabled=\"true\" page-class=\"btn border\"\r\n                     page-class-normal=\"btn btn-light\" page-class-selected=\"btn btn-info active\"\r\n                     class=\"btn-group float-right\">\r\n                </div>\r\n                <br />\r\n");
+                __tagHelperExecutionContext.AddTagHelperAttribute("page-model", __SpiceMVCCore_TagHelpers_PageLinkTagHelper.PageModel, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+#nullable restore
+#line 96 "C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\Areas\Customer\Views\Order\OrderPickup.cshtml"
+__SpiceMVCCore_TagHelpers_PageLinkTagHelper.PageClassesEnabled = true;
+
+#line default
+#line hidden
+#nullable disable
+                __tagHelperExecutionContext.AddTagHelperAttribute("page-classes-enabled", __SpiceMVCCore_TagHelpers_PageLinkTagHelper.PageClassesEnabled, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+                __SpiceMVCCore_TagHelpers_PageLinkTagHelper.PageClass = (string)__tagHelperAttribute_0.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+                __SpiceMVCCore_TagHelpers_PageLinkTagHelper.PageClassNormal = (string)__tagHelperAttribute_1.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_1);
+                __SpiceMVCCore_TagHelpers_PageLinkTagHelper.PageClassSelected = (string)__tagHelperAttribute_2.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
+                __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                WriteLiteral("\r\n                <br />\r\n");
 #nullable restore
 #line 101 "C:\Users\rekh8\OneDrive\Documents\GitHub\arupa\SpiceMVCCore\SpiceMVCCore\Areas\Customer\Views\Order\OrderPickup.cshtml"
             }
@@ -281,8 +313,8 @@ WriteAttributeValue("", 4251, Model.PagingInfo, 4251, 17, false);
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
             __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
-            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_0.Value;
-            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_4.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_4);
             await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
             if (!__tagHelperExecutionContext.Output.IsContentModified)
             {
